@@ -3,7 +3,7 @@ if(${CMAKE_SOURCE_DIR} STREQUAL ${CMAKE_BINARY_DIR})
 endif()
 
 cmake_minimum_required(VERSION 2.8.11)
-project(cgi-example)
+project(cpp-practice)
 add_compile_options(-std=c++11)
 
 #SET(CMAKE_CXX_COMPILER /usr/bin/g++)
