@@ -5,9 +5,9 @@ message(STATUS "Using Protocol Buffers ${protobuf_VERSION}")
 set(CMAKE_INCLUDE_CURRENT_DIR TRUE)
 
 
-foreach(example add_person list_people)
-    set(${example}_SRCS ${example}.cc)
-    set(${example}_PROTOS addressbook.proto)
+foreach(example test)
+    set(${example}_SRCS ${example}.cpp)
+    set(${example}_PROTOS test.proto)
 
     #protobuf_generate_cpp(${example}_PROTO_SRCS ${example}_PROTO_HDRS ${${example}_PROTOS})
     #list(APPEND ${example}_SRCS ${${example}_PROTO_SRCS} ${${example}_PROTO_HDRS})

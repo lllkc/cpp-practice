@@ -1,5 +1,6 @@
-AUX_SOURCE_DIRECTORY(${CMAKE_CURRENT_SOURCE_DIR} source)
-ADD_EXECUTABLE(gtest-example ${source})
+#AUX_SOURCE_DIRECTORY(${CMAKE_CURRENT_SOURCE_DIR} source)
+ADD_EXECUTABLE(gtest-example gtestExample.cpp)
+#ADD_EXECUTABLE(gmock-example gmockExample.cpp)
 
 
 FIND_PACKAGE ( Threads REQUIRED )

@@ -1,0 +1,9 @@
+package test;
+
+message resp {
+    repeated Foo data = 1;
+    message Foo {
+        optional string name = 1;
+        optional uint32 money = 2;
+    }
+}
