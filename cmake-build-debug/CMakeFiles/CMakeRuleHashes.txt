@@ -1,2 +1,0 @@
-# Hashes of file build rules.
-def2b449a5c810da7087e9620627236c src/protobuf/test.pb.h

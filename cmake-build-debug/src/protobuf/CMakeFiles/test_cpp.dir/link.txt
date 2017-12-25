@@ -1,1 +1,0 @@
-/usr/bin/clang++   -std=c++11 -g -Wall  -pthread -g  -rdynamic CMakeFiles/test_cpp.dir/test.cpp.o CMakeFiles/test_cpp.dir/test.pb.cc.o  -o test_cpp /usr/local/lib/libprotobuf.a -lpthread 

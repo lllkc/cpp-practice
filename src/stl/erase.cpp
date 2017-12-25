@@ -1,9 +1,11 @@
 #include <algorithm>
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
-int main() {
+int main()
+{
     vector<int> numbers;
 
     numbers.emplace_back(10);

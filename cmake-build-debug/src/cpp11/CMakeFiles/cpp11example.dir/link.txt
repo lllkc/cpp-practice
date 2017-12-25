@@ -1,1 +1,0 @@
-/usr/bin/clang++   -std=c++11 -g -Wall  -pthread -g  -rdynamic CMakeFiles/cpp11example.dir/Cpp11Example.cpp.o  -o cpp11example 
